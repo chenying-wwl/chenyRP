@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.java2023.exam12.bproject.dao.SysUserDao">
+
+    <resultMap id="UserDTOMap" type="com.java2023.exam12.bproject.dto.UserDTO">
+        <id column="user_id" property="userId"></id>
+        <id column="username" property="username"></id>
+        <id column="password" property="password"></id>
+        <id column="nickname" property="nickname"></id>
+        <collection property="permissions" ofType="com.java2023.exam12.bproject.entity.SysPermission">
+            <id column="perm_id" property="permId"></id>
+            <result column="perm_name" property="permName"></result>
+            <result column="perm_url" property="permUrl"></result>
+            <result column="perm_type" property="permType"></result>
+            <result column="perm_code" property="permCode"></result>
+            <result column="parent_id" property="parentId"></result>
+
+        </collection>
+    </resultMap>
+    <select id="findUserWithPermissions" resultMap="UserDTOMap">
+        select sys_permission.*,sys_user.* from sys_user
+                                         left join sys_user_role on sys_user_role.rid = sys_user.user_id
+                                         left join sys_role_permission on sys_user_role.rid = sys_role_permission.role_id
+                                         left join sys_permission on sys_permission.perm_id = sys_role_permission.permission_id
+                    where username = #{username}
+    </select>
+</mapper>
+
