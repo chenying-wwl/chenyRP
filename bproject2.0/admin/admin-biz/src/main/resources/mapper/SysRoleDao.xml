@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.java2023.exam12.bproject.dao.SysRoleDao">
+
+    <resultMap type="com.java2023.exam12.bproject.entity.SysRole" id="SysRoleMap">
+        <result property="rid" column="rid" jdbcType="INTEGER"/>
+        <result property="rname" column="rname" jdbcType="VARCHAR"/>
+    </resultMap>
+
+
+
+</mapper>
+
