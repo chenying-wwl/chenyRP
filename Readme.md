@@ -8,23 +8,23 @@
 
 * 用户管理
 
-![用户管理](https://github.com/chenying-wwl/chenyRP/blob/chenying-wwl-images/用户管理.png)
+![用户管理](https://github.com/chenying-wwl/chenyRP/blob/ERP/%E8%A7%92%E8%89%B2%E7%AE%A1%E7%90%86.png)
 
-* 角色管理![角色管理](images\角色管理.png)
+* 角色管理![角色管理](https://github.com/chenying-wwl/chenyRP/blob/ERP/角色管理.png)
 
 * 角色授权
 
-![角色授权](images\角色授权.png)
+![角色授权](https://github.com/chenying-wwl/chenyRP/blob/ERP/角色授权.png)
 
 * 仓库材料管理
 
-![仓储材料管理](images\仓储材料管理.png)
+![仓储材料管理](https://github.com/chenying-wwl/chenyRP/blob/ERP/仓储材料管理.png)
 
 * 出入库申请
 
-![出入库申请管理](images\出入库申请管理.png)
+![出入库申请管理](https://github.com/chenying-wwl/chenyRP/blob/ERP/出入库申请管理.png)
 
 * 出入库审核
 
-![出入库审核管理](images\出入库审核管理.png)
+![出入库审核管理](https://github.com/chenying-wwl/chenyRP/blob/ERP/出入库审核管理.png)
 
