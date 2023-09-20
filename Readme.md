@@ -8,7 +8,7 @@
 
 * 用户管理
 
-![用户管理](https://github.com/chenying-wwl/chenyRP/blob/ERP/%E8%A7%92%E8%89%B2%E7%AE%A1%E7%90%86.png)
+![用户管理](https://github.com/chenying-wwl/chenyRP/blob/ERP/用户管理.png)
 
 * 角色管理![角色管理](https://github.com/chenying-wwl/chenyRP/blob/ERP/角色管理.png)
 
