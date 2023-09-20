@@ -8,7 +8,7 @@
 
 * 用户管理
 
-![用户管理](images\用户管理.png)
+![用户管理](https://github.com/chenying-wwl/chenyRP/blob/chenying-wwl-images/用户管理.png)
 
 * 角色管理![角色管理](images\角色管理.png)
 
